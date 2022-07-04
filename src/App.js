@@ -1,4 +1,5 @@
 import './App.css';
+import UseReducerHook from './hooks/UseReducerHook';
 import UseStateHook from './hooks/UseStateHook'
 
 function App() {
@@ -7,6 +8,10 @@ function App() {
 
       <div className='use-state'>
         <UseStateHook />
+      </div>
+
+      <div className='use-reducer'>
+        <UseReducerHook />
       </div>
       
     </div>
