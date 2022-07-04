@@ -1,6 +1,7 @@
 import './App.css';
 import UseEffectHook from './hooks/UseEffectHook';
 import UseReducerHook from './hooks/UseReducerHook';
+import UseRefHook from './hooks/UseRefHook';
 import UseStateHook from './hooks/UseStateHook'
 
 function App() {
@@ -17,6 +18,10 @@ function App() {
 
       <div className='use-effect'>
         <UseEffectHook />
+      </div>
+
+      <div className='use-ref'>
+        <UseRefHook />
       </div>
       
     </div>
