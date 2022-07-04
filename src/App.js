@@ -1,9 +1,14 @@
 import './App.css';
+import UseStateHook from './UseStateHook'
 
 function App() {
   return (
     <div className="App">
-      <p>Hello</p>
+
+      <div className='use-state'>
+        <UseStateHook />
+      </div>
+      
     </div>
   );
 }
